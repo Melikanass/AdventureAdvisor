@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background= "@drawable/gradient"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:id="@+id/Location"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/Username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background= "#ffffff"
+        android:inputType="textPassword"
+        android:drawableLeft = "@drawable/pass_img"
+        android:hint="Location" />
+
+    <TextView
+        android:id="@+id/Date_of_Departure"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/Username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:background= "#ffffff"
+        android:inputType="textPassword"
+        android:drawableLeft = "@drawable/pass_img"
+        android:hint="Date of Departure" />
+
+    <TextView
+    android:id="@+id/Date_of_Arrival"
+    android:layout_width="200dp"
+    android:layout_height="20dp"
+    android:layout_below="@+id/Username"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="230dp"
+    android:background= "#ffffff"
+    android:inputType="textPassword"
+    android:drawableLeft = "@drawable/pass_img"
+    android:hint="Date of Arrival" />
+
+    <TextView
+        android:id="@+id/Weather"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/Username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:background= "#ffffff"
+        android:inputType="textPassword"
+        android:drawableLeft = "@drawable/pass_img"
+        android:hint="Weather" />
+
+    <TextView
+        android:id="@+id/Distance"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/Username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background= "#ffffff"
+        android:inputType="textPassword"
+        android:drawableLeft = "@drawable/pass_img"
+        android:hint="Distance" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/Password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:text="Search" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="371dp"
+        android:layout_height="307dp"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/unnamed" />
+
+
+</RelativeLayout>

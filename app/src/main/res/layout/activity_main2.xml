@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background= "@drawable/gradient"
-    tools:context=".MainActivity">
-
-
+    tools:context=".Main2Activity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -40,27 +38,27 @@
         android:drawableLeft = "@drawable/pass_img"
         android:hint="PASSWORD" />
 
-    <Button
-        android:id="@+id/sign_in_button"
+    <TextView
+        android:id="@+id/Confirm_Password"
         android:layout_width="200dp"
         android:layout_height="20dp"
-        android:layout_below="@+id/Password"
+        android:layout_below="@+id/Username"
+        android:layout_marginTop="55dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/pass_img"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="12dp"
-        android:ems="10"
-        android:background= "#ffffff"
-        android:text="SIGN IN"/>
+        android:hint="CONFIRM PASSWORD"
+        android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/orRegister"
+        android:id="@+id/button"
         android:layout_width="200dp"
         android:layout_height="20dp"
         android:layout_below="@+id/Password"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="85dp"
+        android:layout_marginTop="62dp"
         android:background="#ffffff"
         android:ems="10"
-        android:text="or REGISTER" />
-
+        android:text="REGISTER" />
 
 </RelativeLayout>
